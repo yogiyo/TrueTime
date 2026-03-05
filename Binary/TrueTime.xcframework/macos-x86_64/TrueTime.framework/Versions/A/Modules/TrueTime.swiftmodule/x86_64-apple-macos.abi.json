@@ -1,0 +1,3081 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TrueTime",
+    "printedName": "TrueTime",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrueTime",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrueTime",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TrueTimeError",
+        "printedName": "TrueTimeError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cannotFindHost",
+            "printedName": "cannotFindHost",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrueTime.TrueTimeError.Type) -> TrueTime.TrueTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrueTimeError",
+                    "printedName": "TrueTime.TrueTimeError",
+                    "usr": "c:@M@TrueTime@E@TrueTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrueTime.TrueTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrueTimeError",
+                        "printedName": "TrueTime.TrueTimeError",
+                        "usr": "c:@M@TrueTime@E@TrueTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TrueTime@E@TrueTimeError@TrueTimeErrorCannotFindHost",
+            "mangledName": "$s8TrueTime0aB5ErrorO14cannotFindHostyA2CmF",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "dnsLookupFailed",
+            "printedName": "dnsLookupFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrueTime.TrueTimeError.Type) -> TrueTime.TrueTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrueTimeError",
+                    "printedName": "TrueTime.TrueTimeError",
+                    "usr": "c:@M@TrueTime@E@TrueTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrueTime.TrueTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrueTimeError",
+                        "printedName": "TrueTime.TrueTimeError",
+                        "usr": "c:@M@TrueTime@E@TrueTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TrueTime@E@TrueTimeError@TrueTimeErrorDnsLookupFailed",
+            "mangledName": "$s8TrueTime0aB5ErrorO15dnsLookupFailedyA2CmF",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "timedOut",
+            "printedName": "timedOut",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrueTime.TrueTimeError.Type) -> TrueTime.TrueTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrueTimeError",
+                    "printedName": "TrueTime.TrueTimeError",
+                    "usr": "c:@M@TrueTime@E@TrueTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrueTime.TrueTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrueTimeError",
+                        "printedName": "TrueTime.TrueTimeError",
+                        "usr": "c:@M@TrueTime@E@TrueTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TrueTime@E@TrueTimeError@TrueTimeErrorTimedOut",
+            "mangledName": "$s8TrueTime0aB5ErrorO8timedOutyA2CmF",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "offline",
+            "printedName": "offline",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrueTime.TrueTimeError.Type) -> TrueTime.TrueTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrueTimeError",
+                    "printedName": "TrueTime.TrueTimeError",
+                    "usr": "c:@M@TrueTime@E@TrueTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrueTime.TrueTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrueTimeError",
+                        "printedName": "TrueTime.TrueTimeError",
+                        "usr": "c:@M@TrueTime@E@TrueTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TrueTime@E@TrueTimeError@TrueTimeErrorOffline",
+            "mangledName": "$s8TrueTime0aB5ErrorO7offlineyA2CmF",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "badServerResponse",
+            "printedName": "badServerResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrueTime.TrueTimeError.Type) -> TrueTime.TrueTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrueTimeError",
+                    "printedName": "TrueTime.TrueTimeError",
+                    "usr": "c:@M@TrueTime@E@TrueTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrueTime.TrueTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrueTimeError",
+                        "printedName": "TrueTime.TrueTimeError",
+                        "usr": "c:@M@TrueTime@E@TrueTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TrueTime@E@TrueTimeError@TrueTimeErrorBadServerResponse",
+            "mangledName": "$s8TrueTime0aB5ErrorO17badServerResponseyA2CmF",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "noValidPacket",
+            "printedName": "noValidPacket",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrueTime.TrueTimeError.Type) -> TrueTime.TrueTimeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrueTimeError",
+                    "printedName": "TrueTime.TrueTimeError",
+                    "usr": "c:@M@TrueTime@E@TrueTimeError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrueTime.TrueTimeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrueTimeError",
+                        "printedName": "TrueTime.TrueTimeError",
+                        "usr": "c:@M@TrueTime@E@TrueTimeError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TrueTime@E@TrueTimeError@TrueTimeErrorNoValidPacket",
+            "mangledName": "$s8TrueTime0aB5ErrorO13noValidPacketyA2CmF",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TrueTime.TrueTimeError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrueTimeError",
+                    "printedName": "TrueTime.TrueTimeError",
+                    "usr": "c:@M@TrueTime@E@TrueTimeError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8TrueTime0aB5ErrorO8rawValueACSgSi_tcfc",
+            "mangledName": "$s8TrueTime0aB5ErrorO8rawValueACSgSi_tcfc",
+            "moduleName": "TrueTime",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8TrueTime0aB5ErrorO8rawValueSivp",
+            "mangledName": "$s8TrueTime0aB5ErrorO8rawValueSivp",
+            "moduleName": "TrueTime",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8TrueTime0aB5ErrorO8rawValueSivg",
+                "mangledName": "$s8TrueTime0aB5ErrorO8rawValueSivg",
+                "moduleName": "TrueTime",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8TrueTime0aB5ErrorO11descriptionSSvp",
+            "mangledName": "$s8TrueTime0aB5ErrorO11descriptionSSvp",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8TrueTime0aB5ErrorO11descriptionSSvg",
+                "mangledName": "$s8TrueTime0aB5ErrorO11descriptionSSvg",
+                "moduleName": "TrueTime",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@TrueTime@E@TrueTimeError",
+        "mangledName": "$s8TrueTime0aB5ErrorO",
+        "moduleName": "TrueTime",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReferenceTime",
+        "printedName": "ReferenceTime",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "uptimeInterval",
+            "printedName": "uptimeInterval",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime(py)uptimeInterval",
+            "mangledName": "$s8TrueTime09ReferenceB0C14uptimeIntervalSdvp",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime(im)uptimeInterval",
+                "mangledName": "$s8TrueTime09ReferenceB0C14uptimeIntervalSdvg",
+                "moduleName": "TrueTime",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "time",
+            "printedName": "time",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime(py)time",
+            "mangledName": "$s8TrueTime09ReferenceB0C4time10Foundation4DateVvp",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime(im)time",
+                "mangledName": "$s8TrueTime09ReferenceB0C4time10Foundation4DateVvg",
+                "moduleName": "TrueTime",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uptime",
+            "printedName": "uptime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "timeval",
+                "printedName": "sys_time.timeval",
+                "usr": "c:@S@timeval"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime(py)uptime",
+            "mangledName": "$s8TrueTime09ReferenceB0C6uptimeSo7timevalVvp",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "timeval",
+                    "printedName": "sys_time.timeval",
+                    "usr": "c:@S@timeval"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime(im)uptime",
+                "mangledName": "$s8TrueTime09ReferenceB0C6uptimeSo7timevalVvg",
+                "moduleName": "TrueTime",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "now",
+            "printedName": "now()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime(im)now",
+            "mangledName": "$s8TrueTime09ReferenceB0C3now10Foundation4DateVyF",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(time:uptime:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReferenceTime",
+                "printedName": "TrueTime.ReferenceTime",
+                "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "timeval",
+                "printedName": "sys_time.timeval",
+                "usr": "c:@S@timeval"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8TrueTime09ReferenceB0C4time6uptimeAC10Foundation4DateV_So7timevalVtcfc",
+            "mangledName": "$s8TrueTime09ReferenceB0C4time6uptimeAC10Foundation4DateV_So7timevalVtcfc",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime(py)description",
+            "mangledName": "$s8TrueTime09ReferenceB0C11descriptionSSvp",
+            "moduleName": "TrueTime",
+            "overriding": true,
+            "objc_name": "description",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime(im)description",
+                "mangledName": "$s8TrueTime09ReferenceB0C11descriptionSSvg",
+                "moduleName": "TrueTime",
+                "overriding": true,
+                "objc_name": "description",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReferenceTime",
+                "printedName": "TrueTime.ReferenceTime",
+                "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime(im)init",
+            "mangledName": "$s8TrueTime09ReferenceB0CACycfc",
+            "moduleName": "TrueTime",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime",
+        "mangledName": "$s8TrueTime09ReferenceB0C",
+        "moduleName": "TrueTime",
+        "objc_name": "NTPReferenceTime",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TrueTimeClient",
+        "printedName": "TrueTimeClient",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TrueTimeClient",
+                "printedName": "TrueTime.TrueTimeClient",
+                "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient(cpy)sharedInstance",
+            "mangledName": "$s8TrueTime0aB6ClientC14sharedInstanceACvpZ",
+            "moduleName": "TrueTime",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrueTimeClient",
+                    "printedName": "TrueTime.TrueTimeClient",
+                    "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient(cm)sharedInstance",
+                "mangledName": "$s8TrueTime0aB6ClientC14sharedInstanceACvgZ",
+                "moduleName": "TrueTime",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(timeout:maxRetries:maxConnections:maxServers:numberOfSamples:pollInterval:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TrueTimeClient",
+                "printedName": "TrueTime.TrueTimeClient",
+                "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient(im)initWithTimeout:maxRetries:maxConnections:maxServers:numberOfSamples:pollInterval:",
+            "mangledName": "$s8TrueTime0aB6ClientC7timeout10maxRetries0E11Connections0E7Servers15numberOfSamples12pollIntervalACSd_S4iSdtcfc",
+            "moduleName": "TrueTime",
+            "objc_name": "initWithTimeout:maxRetries:maxConnections:maxServers:numberOfSamples:pollInterval:",
+            "declAttributes": [
+              "AccessControl",
+              "Required",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(pool:port:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient(im)startWithPool:port:",
+            "mangledName": "$s8TrueTime0aB6ClientC5start4pool4portySaySSG_SitF",
+            "moduleName": "TrueTime",
+            "objc_name": "startWithPool:port:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pause",
+            "printedName": "pause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient(im)pause",
+            "mangledName": "$s8TrueTime0aB6ClientC5pauseyyF",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchIfNeeded",
+            "printedName": "fetchIfNeeded(queue:first:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<TrueTime.ReferenceTime, Foundation.NSError>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<TrueTime.ReferenceTime, Foundation.NSError>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<TrueTime.ReferenceTime, Foundation.NSError>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ReferenceTime",
+                            "printedName": "TrueTime.ReferenceTime",
+                            "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<TrueTime.ReferenceTime, Foundation.NSError>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<TrueTime.ReferenceTime, Foundation.NSError>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<TrueTime.ReferenceTime, Foundation.NSError>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ReferenceTime",
+                            "printedName": "TrueTime.ReferenceTime",
+                            "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8TrueTime0aB6ClientC13fetchIfNeeded5queue5first10completionySo012OS_dispatch_G0C_ys6ResultOyAA09ReferenceB0CSo7NSErrorCGcSgAQtF",
+            "mangledName": "$s8TrueTime0aB6ClientC13fetchIfNeeded5queue5first10completionySo012OS_dispatch_G0C_ys6ResultOyAA09ReferenceB0CSo7NSErrorCGcSgAQtF",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "referenceTime",
+            "printedName": "referenceTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TrueTime.ReferenceTime?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReferenceTime",
+                    "printedName": "TrueTime.ReferenceTime",
+                    "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient(py)referenceTime",
+            "mangledName": "$s8TrueTime0aB6ClientC09referenceB0AA09ReferenceB0CSgvp",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TrueTime.ReferenceTime?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReferenceTime",
+                        "printedName": "TrueTime.ReferenceTime",
+                        "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient(im)referenceTime",
+                "mangledName": "$s8TrueTime0aB6ClientC09referenceB0AA09ReferenceB0CSgvg",
+                "moduleName": "TrueTime",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeout",
+            "printedName": "timeout",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient(py)timeout",
+            "mangledName": "$s8TrueTime0aB6ClientC7timeoutSdvp",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient(im)timeout",
+                "mangledName": "$s8TrueTime0aB6ClientC7timeoutSdvg",
+                "moduleName": "TrueTime",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxRetries",
+            "printedName": "maxRetries",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient(py)maxRetries",
+            "mangledName": "$s8TrueTime0aB6ClientC10maxRetriesSivp",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient(im)maxRetries",
+                "mangledName": "$s8TrueTime0aB6ClientC10maxRetriesSivg",
+                "moduleName": "TrueTime",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxConnections",
+            "printedName": "maxConnections",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient(py)maxConnections",
+            "mangledName": "$s8TrueTime0aB6ClientC14maxConnectionsSivp",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient(im)maxConnections",
+                "mangledName": "$s8TrueTime0aB6ClientC14maxConnectionsSivg",
+                "moduleName": "TrueTime",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxServers",
+            "printedName": "maxServers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient(py)maxServers",
+            "mangledName": "$s8TrueTime0aB6ClientC10maxServersSivp",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient(im)maxServers",
+                "mangledName": "$s8TrueTime0aB6ClientC10maxServersSivg",
+                "moduleName": "TrueTime",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "numberOfSamples",
+            "printedName": "numberOfSamples",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient(py)numberOfSamples",
+            "mangledName": "$s8TrueTime0aB6ClientC15numberOfSamplesSivp",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient(im)numberOfSamples",
+                "mangledName": "$s8TrueTime0aB6ClientC15numberOfSamplesSivg",
+                "moduleName": "TrueTime",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TrueTimeClient",
+                "printedName": "TrueTime.TrueTimeClient",
+                "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient(im)init",
+            "mangledName": "$s8TrueTime0aB6ClientCACycfc",
+            "moduleName": "TrueTime",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchFirstIfNeeded",
+            "printedName": "fetchFirstIfNeeded(success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrueTime.ReferenceTime) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReferenceTime",
+                    "printedName": "TrueTime.ReferenceTime",
+                    "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.NSError) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.NSError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TrueTime@objc(cs)TrueTimeClient(im)fetchFirstIfNeededWithSuccess:failure:",
+            "mangledName": "$s8TrueTime0aB6ClientC18fetchFirstIfNeeded7success7failureyyAA09ReferenceB0Cc_ySo7NSErrorCcSgtF",
+            "moduleName": "TrueTime",
+            "objc_name": "fetchFirstIfNeededWithSuccess:failure:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchIfNeeded",
+            "printedName": "fetchIfNeeded(success:failure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrueTime.ReferenceTime) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReferenceTime",
+                    "printedName": "TrueTime.ReferenceTime",
+                    "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.NSError) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.NSError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TrueTime@objc(cs)TrueTimeClient(im)fetchIfNeededWithSuccess:failure:",
+            "mangledName": "$s8TrueTime0aB6ClientC13fetchIfNeeded7success7failureyyAA09ReferenceB0Cc_ySo7NSErrorCcSgtF",
+            "moduleName": "TrueTime",
+            "objc_name": "fetchIfNeededWithSuccess:failure:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchFirstIfNeeded",
+            "printedName": "fetchFirstIfNeeded(success:failure:onQueue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrueTime.ReferenceTime) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReferenceTime",
+                    "printedName": "TrueTime.ReferenceTime",
+                    "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.NSError) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.NSError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TrueTime@objc(cs)TrueTimeClient(im)fetchFirstIfNeededWithSuccess:failure:onQueue:",
+            "mangledName": "$s8TrueTime0aB6ClientC18fetchFirstIfNeeded7success7failure7onQueueyyAA09ReferenceB0Cc_ySo7NSErrorCcSgSo17OS_dispatch_queueCtF",
+            "moduleName": "TrueTime",
+            "objc_name": "fetchFirstIfNeededWithSuccess:failure:onQueue:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchIfNeeded",
+            "printedName": "fetchIfNeeded(success:failure:onQueue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrueTime.ReferenceTime) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReferenceTime",
+                    "printedName": "TrueTime.ReferenceTime",
+                    "usr": "c:@M@TrueTime@objc(cs)NTPReferenceTime"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.NSError) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.NSError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TrueTime@objc(cs)TrueTimeClient(im)fetchIfNeededWithSuccess:failure:onQueue:",
+            "mangledName": "$s8TrueTime0aB6ClientC13fetchIfNeeded7success7failure7onQueueyyAA09ReferenceB0Cc_ySo7NSErrorCcSgSo17OS_dispatch_queueCtF",
+            "moduleName": "TrueTime",
+            "objc_name": "fetchIfNeededWithSuccess:failure:onQueue:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TrueTime@objc(cs)TrueTimeClient",
+        "mangledName": "$s8TrueTime0aB6ClientC",
+        "moduleName": "TrueTime",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrueTime",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrueTime",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrueTime",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrueTime",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "TrueTime"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrueTime",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrueTime",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrueTime",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrueTime",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Int",
+        "printedName": "Int",
+        "declKind": "Struct",
+        "usr": "s:Si",
+        "mangledName": "$sSi",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "FixedWidthInteger",
+            "printedName": "FixedWidthInteger",
+            "usr": "s:s17FixedWidthIntegerP",
+            "mangledName": "$ss17FixedWidthIntegerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SignedInteger",
+            "printedName": "SignedInteger",
+            "usr": "s:SZ",
+            "mangledName": "$sSZ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinIntegerLiteral",
+            "printedName": "_ExpressibleByBuiltinIntegerLiteral",
+            "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
+            "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BinaryInteger",
+            "printedName": "BinaryInteger",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Words",
+                "printedName": "Words",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Words",
+                    "printedName": "Swift.Int.Words",
+                    "usr": "s:Si5WordsV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sz",
+            "mangledName": "$sSz"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SignedNumeric",
+            "printedName": "SignedNumeric",
+            "usr": "s:s13SignedNumericP",
+            "mangledName": "$ss13SignedNumericP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Numeric",
+            "printedName": "Numeric",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Magnitude",
+                "printedName": "Magnitude",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sj",
+            "mangledName": "$sSj"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Stride",
+                "printedName": "Stride",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdditiveArithmetic",
+            "printedName": "AdditiveArithmetic",
+            "usr": "s:s18AdditiveArithmeticP",
+            "mangledName": "$ss18AdditiveArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByIntegerLiteral",
+            "printedName": "ExpressibleByIntegerLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "IntegerLiteralType",
+                "printedName": "IntegerLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByIntegerLiteralP",
+            "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SIMDScalar",
+            "printedName": "SIMDScalar",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SIMDMaskScalar",
+                "printedName": "SIMDMaskScalar",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD2Storage",
+                "printedName": "SIMD2Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2Storage",
+                    "printedName": "Swift.Int.SIMD2Storage",
+                    "usr": "s:Si12SIMD2StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD4Storage",
+                "printedName": "SIMD4Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD4Storage",
+                    "printedName": "Swift.Int.SIMD4Storage",
+                    "usr": "s:Si12SIMD4StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD8Storage",
+                "printedName": "SIMD8Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD8Storage",
+                    "printedName": "Swift.Int.SIMD8Storage",
+                    "usr": "s:Si12SIMD8StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD16Storage",
+                "printedName": "SIMD16Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD16Storage",
+                    "printedName": "Swift.Int.SIMD16Storage",
+                    "usr": "s:Si13SIMD16StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD32Storage",
+                "printedName": "SIMD32Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD32Storage",
+                    "printedName": "Swift.Int.SIMD32Storage",
+                    "usr": "s:Si13SIMD32StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD64Storage",
+                "printedName": "SIMD64Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD64Storage",
+                    "printedName": "Swift.Int.SIMD64Storage",
+                    "usr": "s:Si13SIMD64StorageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s10SIMDScalarP",
+            "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation18_FormatSpecifiableP",
+            "mangledName": "$s10Foundation18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ntp_time32_t",
+        "printedName": "ntp_time32_t",
+        "declKind": "Struct",
+        "usr": "c:@SA@ntp_time32_t",
+        "moduleName": "TrueTime",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ntp_time64_t",
+        "printedName": "ntp_time64_t",
+        "declKind": "Struct",
+        "usr": "c:@SA@ntp_time64_t",
+        "moduleName": "TrueTime",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ntp_packet_t",
+        "printedName": "ntp_packet_t",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So12ntp_packet_ta8TrueTimeE11descriptionSSvp",
+            "mangledName": "$sSo12ntp_packet_ta8TrueTimeE11descriptionSSvp",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So12ntp_packet_ta8TrueTimeE11descriptionSSvg",
+                "mangledName": "$sSo12ntp_packet_ta8TrueTimeE11descriptionSSvg",
+                "moduleName": "TrueTime",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@SA@ntp_packet_t",
+        "moduleName": "TrueTime",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "sockaddr_in6",
+        "printedName": "sockaddr_in6",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So12sockaddr_in6V8TrueTimeE11descriptionSSvp",
+            "mangledName": "$sSo12sockaddr_in6V8TrueTimeE11descriptionSSvp",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So12sockaddr_in6V8TrueTimeE11descriptionSSvg",
+                "mangledName": "$sSo12sockaddr_in6V8TrueTimeE11descriptionSSvg",
+                "moduleName": "TrueTime",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@S@sockaddr_in6",
+        "moduleName": "Darwin",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "sockaddr_in",
+        "printedName": "sockaddr_in",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So11sockaddr_inV8TrueTimeE11descriptionSSvp",
+            "mangledName": "$sSo11sockaddr_inV8TrueTimeE11descriptionSSvp",
+            "moduleName": "TrueTime",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So11sockaddr_inV8TrueTimeE11descriptionSSvg",
+                "mangledName": "$sSo11sockaddr_inV8TrueTimeE11descriptionSSvg",
+                "moduleName": "TrueTime",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@S@sockaddr_in",
+        "moduleName": "Darwin",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "timeval",
+        "printedName": "timeval",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "uptime",
+            "printedName": "uptime()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "timeval",
+                "printedName": "sys_time.timeval",
+                "usr": "c:@S@timeval"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7timevalV8TrueTimeE6uptimeAByFZ",
+            "mangledName": "$sSo7timevalV8TrueTimeE6uptimeAByFZ",
+            "moduleName": "TrueTime",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "milliseconds",
+            "printedName": "milliseconds",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7timevalV8TrueTimeE12millisecondss5Int64Vvp",
+            "mangledName": "$sSo7timevalV8TrueTimeE12millisecondss5Int64Vvp",
+            "moduleName": "TrueTime",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7timevalV8TrueTimeE12millisecondss5Int64Vvg",
+                "mangledName": "$sSo7timevalV8TrueTimeE12millisecondss5Int64Vvg",
+                "moduleName": "TrueTime",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@S@timeval",
+        "moduleName": "sys_time",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/TrueTime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 229,
+      "length": 15,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/TrueTime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 254,
+      "length": 8,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/TrueTime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 272,
+      "length": 7,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/TrueTime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 289,
+      "length": 17,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/TrueTime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 316,
+      "length": 13,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/TrueTime.swift",
+      "kind": "StringLiteral",
+      "offset": 1009,
+      "length": 55,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/TrueTime.swift",
+      "kind": "StringLiteral",
+      "offset": 1027,
+      "length": 1,
+      "value": "\"(underlyingValue: \""
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/TrueTime.swift",
+      "kind": "StringLiteral",
+      "offset": 1063,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/TrueTime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1637,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/TrueTime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1689,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/TrueTime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1745,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/TrueTime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1797,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/TrueTime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1854,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/TrueTime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1917,
+      "length": 3,
+      "value": "512"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/TrueTime.swift",
+      "kind": "Array",
+      "offset": 2338,
+      "length": 18,
+      "value": "[\"time.apple.com\"]"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/TrueTime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2370,
+      "length": 3,
+      "value": "123"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/GCDLock.swift",
+      "kind": "StringLiteral",
+      "offset": 245,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2163,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2202,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2241,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2285,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/HostResolver.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3880,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/HostResolver.swift",
+      "kind": "StringLiteral",
+      "offset": 4790,
+      "length": 24,
+      "value": "\"com.instacart.dns.host\""
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/HostResolver.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4894,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/HostResolver.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4944,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/HostResolver.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5243,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/HostResolver.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6855,
+      "length": 3,
+      "value": "123"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/ReferenceTime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 923,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPConnection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3663,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPConnection.swift",
+      "kind": "StringLiteral",
+      "offset": 5334,
+      "length": 53,
+      "value": "\"Buffer \""
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPConnection.swift",
+      "kind": "StringLiteral",
+      "offset": 5359,
+      "length": 8,
+      "value": "\" writable - requesting time\""
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPConnection.swift",
+      "kind": "StringLiteral",
+      "offset": 5468,
+      "length": 28,
+      "value": "\"Unexpected socket callback\""
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPConnection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5753,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPConnection.swift",
+      "kind": "StringLiteral",
+      "offset": 5808,
+      "length": 30,
+      "value": "\"com.instacart.ntp.connection\""
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPConnection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5872,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPConnection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5955,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPConnection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6198,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8422,
+      "length": 3,
+      "value": "365"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8428,
+      "length": 2,
+      "value": "70"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8434,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8440,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8445,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8450,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8518,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8551,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2578,
+      "length": 26,
+      "value": "\"com.instacart.ntp.client\""
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPClient.swift",
+      "kind": "Array",
+      "offset": 2732,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPClient.swift",
+      "kind": "Array",
+      "offset": 2782,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2818,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2860,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPClient.swift",
+      "kind": "Array",
+      "offset": 2941,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3057,
+      "length": 3,
+      "value": "123"
+    },
+    {
+      "filePath": "\/Users\/b202601003\/Documents\/workspace\/TrueTime\/Sources\/NTPClient.swift",
+      "kind": "Array",
+      "offset": 3094,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}
