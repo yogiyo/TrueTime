@@ -11,7 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "TrueTime",
-            targets: ["TrueTime"]
+            targets: ["TrueTime", "CTrueTime"]
         )
     ],
     targets: [
