@@ -5,6 +5,8 @@
 //  Created by Michael Sanders on 10/26/16.
 //  Copyright © 2016 Instacart. All rights reserved.
 //
+import Foundation
+import CTrueTime
 
 typealias FrozenTimeResult = Result<FrozenTime, NSError>
 typealias FrozenTimeCallback = (FrozenTimeResult) -> Void
