@@ -1,0 +1,105 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TrueTime
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Foundation
+import Swift
+import SystemConfiguration
+@_exported import TrueTime
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public enum TrueTimeError : Swift.Int {
+  case cannotFindHost
+  case dnsLookupFailed
+  case timedOut
+  case offline
+  case badServerResponse
+  case noValidPacket
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc(NTPReferenceTime) final public class ReferenceTime : ObjectiveC.NSObject {
+  @objc final public var uptimeInterval: Foundation.TimeInterval {
+    @objc get
+  }
+  @objc final public var time: Foundation.Date {
+    @objc get
+  }
+  @objc final public var uptime: sys_time.timeval {
+    @objc get
+  }
+  @objc final public func now() -> Foundation.Date
+  convenience public init(time: Foundation.Date, uptime: sys_time.timeval)
+  @objc override final public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+}
+public typealias ReferenceTimeResult = Swift.Result<TrueTime.ReferenceTime, Foundation.NSError>
+public typealias ReferenceTimeCallback = (TrueTime.ReferenceTimeResult) -> Swift.Void
+public typealias LogCallback = (Swift.String) -> Swift.Void
+@objc final public class TrueTimeClient : ObjectiveC.NSObject {
+  @objc public static let sharedInstance: TrueTime.TrueTimeClient
+  @objc required public init(timeout: Foundation.TimeInterval = 8, maxRetries: Swift.Int = 3, maxConnections: Swift.Int = 5, maxServers: Swift.Int = 5, numberOfSamples: Swift.Int = 4, pollInterval: Foundation.TimeInterval = 512)
+  @objc final public func start(pool: [Swift.String] = ["time.apple.com"], port: Swift.Int = 123)
+  @objc final public func pause()
+  final public func fetchIfNeeded(queue callbackQueue: Dispatch.DispatchQueue = .main, first: TrueTime.ReferenceTimeCallback? = nil, completion: TrueTime.ReferenceTimeCallback? = nil)
+  @objc final public var referenceTime: TrueTime.ReferenceTime? {
+    @objc get
+  }
+  @objc final public var timeout: Foundation.TimeInterval {
+    @objc get
+  }
+  @objc final public var maxRetries: Swift.Int {
+    @objc get
+  }
+  @objc final public var maxConnections: Swift.Int {
+    @objc get
+  }
+  @objc final public var maxServers: Swift.Int {
+    @objc get
+  }
+  @objc final public var numberOfSamples: Swift.Int {
+    @objc get
+  }
+  @objc deinit
+}
+extension TrueTime.TrueTimeClient {
+  @objc final public func fetchFirstIfNeeded(success: @escaping (TrueTime.ReferenceTime) -> Swift.Void, failure: ((Foundation.NSError) -> Swift.Void)?)
+  @objc final public func fetchIfNeeded(success: @escaping (TrueTime.ReferenceTime) -> Swift.Void, failure: ((Foundation.NSError) -> Swift.Void)?)
+  @objc final public func fetchFirstIfNeeded(success: @escaping (TrueTime.ReferenceTime) -> Swift.Void, failure: ((Foundation.NSError) -> Swift.Void)?, onQueue queue: Dispatch.DispatchQueue)
+  @objc final public func fetchIfNeeded(success: @escaping (TrueTime.ReferenceTime) -> Swift.Void, failure: ((Foundation.NSError) -> Swift.Void)?, onQueue queue: Dispatch.DispatchQueue)
+}
+extension sys_time.timeval {
+  public static func uptime() -> sys_time.timeval
+  public var milliseconds: Swift.Int64 {
+    get
+  }
+}
+extension Darwin.sockaddr_in6 : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension Darwin.sockaddr_in : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension TrueTime.ntp_packet_t : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension TrueTime.TrueTimeError : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension TrueTime.TrueTimeError : Swift.Equatable {}
+extension TrueTime.TrueTimeError : Swift.Hashable {}
+extension TrueTime.TrueTimeError : Swift.RawRepresentable {}
